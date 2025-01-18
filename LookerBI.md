@@ -75,7 +75,7 @@ explore: flights {
 
 # Place in `qwiklabs-flights-maps` model
 explore: +flights {
-    query: techcps_1 {
+    query: creativejv_1 {
       dimensions: [aircraft_destination.map_location, aircraft_origin.map_location]
       measures: [count]
       filters: [
@@ -89,7 +89,7 @@ explore: +flights {
 # Place in `qwiklabs-flights-maps` model
 
 explore: +flights {
-    query: techcps_2 {
+    query: creativejv_2 {
       dimensions: [aircraft.region]
       measures: [aircraft.count]
     }
