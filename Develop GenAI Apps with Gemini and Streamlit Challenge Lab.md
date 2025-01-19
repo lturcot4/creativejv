@@ -1,6 +1,6 @@
 # Develop GenAI Apps with Gemini and Streamlit: Challenge Lab || [GSP517](https://www.cloudskillsboost.google/focuses/87315?parent=catalog) ||
 
-## Solution [here](https://youtu.be/DwOxKDyh1RU)
+
 
 * Go to `USER-MANAGE NOTEBOOKS` from [here](https://console.cloud.google.com/vertex-ai/workbench/user-managed)
 
@@ -50,7 +50,7 @@ streamlit run chef.py \
   --server.port 8080
 ```
 
-* Now Follow [Video's](https://youtu.be/DwOxKDyh1RU) Instructions
+* Now Follow [Video's] Instructions
 
 ### Run again the following Commands in 
 
@@ -75,8 +75,3 @@ gcloud run deploy "$SERVICE_NAME" \
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
-#### *Well done!*
-
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
-
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
