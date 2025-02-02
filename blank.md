@@ -1,5 +1,5 @@
 
-### 💡 Lab Name: Introduction to Cloud Dataproc: Hadoop and Spark on Google Cloud
+### 💡 Lab Name: Speaking with a Webpage - Streaming Speech Transcripts
 
 ### 🚀 Lab Solution 
 
@@ -18,50 +18,40 @@
 
 ---
 
-### Code 1 [CREATE DATAPROC CLUSTER]:
+### Code 1 [RUN IN CLOUD :SHELL]
 
 ```
-# Prompt user for input
-echo "Enter the region:"
-read REGION
-echo "Enter the zone:"
-read ZONE
-echo "Enter the project ID:"
-read PROJECT_ID
+export ZONE=
 
-# Create Dataproc cluster
-gcloud dataproc clusters create qlab \
-  --enable-component-gateway \
-  --region $REGION \
-  --zone $ZONE \
-  --master-machine-type e2-standard-4 \
-  --master-boot-disk-type pd-balanced \
-  --master-boot-disk-size 100 \
-  --num-workers 2 \
-  --worker-machine-type e2-standard-2 \
-  --worker-boot-disk-size 100 \
-  --image-version 2.2-debian12 \
-  --project $PROJECT_ID
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/gsp125-1.sh
+
+sudo chmod +x gsp125-1.sh
+
+./gsp125-1.sh
 
 ```
 
 ---
-### Code 1 will take upto 4 minutes...
-### Code 2 [SUBMIT SPARK JOB]
+
+### Code 2 [RUN IN CLOUDSHELL NEW TAB]
 
 ```
-# Prompt user for input
-echo "Enter the region:"
-read REGION
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/gsp125-2.sh
 
-# Submit Spark job to the cluster
-gcloud dataproc jobs submit spark \
-  --region $REGION \
-  --cluster qlab \
-  --class org.apache.spark.examples.SparkPi \
-  --jars file:///usr/lib/spark/examples/jars/spark-examples.jar \
-  -- 1000
+sudo chmod +x gsp125-2.sh
 
+./gsp125-2.sh
+```
+### Check upto task 3
+### to stop server ctrl+c
+### Run in previous tab
+
+```
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/gsp125-3.sh
+
+sudo chmod +x gsp125-3.sh
+
+./gsp125-3.sh
 
 ```
 
