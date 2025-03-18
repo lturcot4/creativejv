@@ -9,14 +9,14 @@ This guide is designed to enhance your learning experience during this lab. Plea
 ### **Open fintech.model file**
 ```
 explore: +loan_details {
-    query: Task2_ArcadeCrew{
+    query: Task2_CreativeJV{
       measures: [loan.outstanding_loans_amount]
     }
 }
 
 
 explore: +loan_details {
-    query: Task3_ArcadeCrew {
+    query: Task3_CreativeJV {
       dimensions: [loan.loan_status]
       measures: [loan.outstanding_loans_amount]
     }
@@ -24,7 +24,7 @@ explore: +loan_details {
 
 
 explore: +loan_details {
-    query: Task4_ArcadeCrew {
+    query: Task4_CreativeJV {
       dimensions: [loan.state]
       measures: [loan.outstanding_count]
     }
@@ -32,7 +32,7 @@ explore: +loan_details {
 
 
 explore: +loan_details {
-    query: Task5_ArcadeCrew {
+    query: Task5_CreativeJV {
       dimensions: [
         customer.address_state,
         customer.annual_income,
@@ -140,7 +140,4 @@ explore: +loan_details {
 
 ---
 
-## 🤝 **Join the Arcade Crew Community!**  
 
-- **WhatsApp Group:** [Join Here](https://chat.whatsapp.com/KkNEauOhBQXHdVcmqIlv9F)  
-- **YouTube Channel:** [![Subscribe to Arcade Crew](https://img.shields.io/badge/Youtube-Arcade%20Crew-red?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.youtube.com/@Arcade61432?sub_confirmation=1)  
