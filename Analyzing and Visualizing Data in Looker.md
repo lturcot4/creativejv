@@ -1,5 +1,5 @@
 # 🚀 **Analyzing and Visualizing Data in Looker**  
-[![Open Lab](https://img.shields.io/badge/Open-Lab-brown?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.youtube.com/@Arcade61432) 
+
 ---
 
 ## ⚠️ **Important Notice**  
