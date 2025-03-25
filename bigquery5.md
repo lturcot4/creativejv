@@ -1,5 +1,5 @@
 
-### 💡 Lab Name: mini lab : BigQuery : 6
+### 💡 Lab Name: mini lab : BigQuery : 5
 
 ### 🚀 Lab Solution 
 
